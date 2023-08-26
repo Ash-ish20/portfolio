@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* font-family: 'Roboto Mono', monospace; */
+body {
+  background-color: rgb(23, 13, 70);
+}
+header {
+  margin-top: -11vh;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  background-color: rgb(20, 10, 66);
+  color: blanchedalmond;
+  font-weight: 700;
+}
+.left,
+.right {
+  font-size: 1.2rem;
+  margin-top: 22px;
+}
+.left {
+  align-items: center;
+  font-family: "Roboto Mono", monospace, sans-serif;
+}
+#logoName {
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  display: inline;
+}
+
+.right ul {
+  display: flex;
+  list-style: none;
+}
+.right li {
+  margin: 0 15px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+}
+.right li a {
+  text-decoration: none;
+  color: white;
+}
+.right li a:hover {
+  color: aqua;
+  font-size: 1.3rem;
+}
+/* inside container */
+.container {
+  width: 100%;
+  margin-top: 10vh;
+}
+.front {
+  width: 100%;
+  display: flex;
+  height: 90vh;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  justify-content: center;
+}
+#firstLook {
+  color: white;
+  margin-top: 15px;
+  font-family: "Roboto Mono", monospace;
+}
+#firstLook h1 {
+  font-size: 6rem;
+  margin-left: -5vw;
+}
+#firstLook h1 span {
+  color: rgb(224, 60, 161);
+}
+.size {
+  font-size: 2.5rem;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  margin-left: -5vw;
+}
+
+#overview {
+  width: 42vw;
+  color: wheat;
+  height: 30vh;
+  margin-left: 20vw;
+  margin-top: 5vh;
+}
+.intro section span {
+  color: gray;
+  font-size: 22px;
+}
+.intro section h2 {
+  font-size: 4rem;
+}
+.intro section p {
+  margin-top: 12px;
+  font-size: 24px;
+}
+.skill section {
+  border: 2px solid red;
+}
+.skill h2 {
+  font-size: 5rem;
+  margin-left: 18%;
+  height: 14vh;
+}
+#inSkill {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  height: 20vw;
+  margin: 5vh auto;
+  background-color: #ffffffb9;
+}
+#inSkill img {
+  height: 34vh;
+  margin-top: 18vh;
+}
